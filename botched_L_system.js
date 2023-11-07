@@ -150,8 +150,8 @@ class Renderer
     forward()
     {
         this.state = new Vector3(
-            this.state.x + Math.cos(this.system.turnAngle * this.state.z * Math.PI * 10),
-            this.state.y + Math.sin(this.system.turnAngle * this.state.z * Math.PI * 10),
+            this.state.x + Math.cos(this.system.turnAngle * this.state.z * Math.PI * 10000),
+            this.state.y + Math.sin(this.system.turnAngle * this.state.z * Math.PI * 10000),
             this.state.z
         );
     }
